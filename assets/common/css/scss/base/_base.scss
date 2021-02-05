@@ -1,0 +1,51 @@
+body[data-theme="dark"] {
+    color: $white;
+    background-color: $black;
+    h1, h2, h3, h4, p {
+        color: $white;
+    }
+}
+body[data-theme="light"] {
+    color: $nero;
+    background-color: $white;
+    h1, h2, h3, h4, p {
+        color: $nero;
+    }
+}
+/* @media (prefers-color-scheme: dark) {
+    body {}
+} */
+
+[class^="spr_"]{
+    display:inline-block;
+    text-indent:-9999px;
+    font-size:0;
+    line-height:0;
+    vertical-align: top;
+}
+
+.blind {position:absolute;clip:rect(0 0 0 0);width:1px;height:1px;margin:-1px;overflow:hidden}
+
+#etoosIndex {position:relative;z-index:3000}
+#etoosIndex a {position:absolute;top:-30px;left:0;width:138px;border:1px solid #4ec53d;background:#333;text-align:center}
+#etoosIndex a:active,
+#etoosIndex a:focus {top:0;text-decoration:none;z-index:1000}
+#etoosIndex .inner {display:inline-block;padding:2px 6px 0 0;font-size:13px;line-height:26px;color:#fff;letter-spacing:-1px;white-space:nowrap}
+
+#etoosWrap {overflow:hidden;width:100%;min-width:$content-width;} /* 컨텐츠 1280px + 좌우여백 각각 90px = 1460px */
+#etoosHead {height:144px;border-bottom: 1px solid $lightgrey;font-family:"Noto Sans KR",-apple-system,BlinkMacSystemFont,"Malgun Gothic",helvetica,"Apple SD Gothic Neo",sans-serif;letter-spacing:-0.05em;}
+#etoosFoot {text-align:left;font-family:"Noto Sans KR",-apple-system,BlinkMacSystemFont,"Malgun Gothic",helvetica,"Apple SD Gothic Neo",sans-serif;letter-spacing:-0.05em;}
+#etoosHead, #etoosFoot{
+    a, h3 {
+        font-family:"Noto Sans KR",-apple-system,BlinkMacSystemFont,"Malgun Gothic",helvetica,"Apple SD Gothic Neo",sans-serif;letter-spacing:-0.05em;
+    }
+}
+#etoosCont {
+    padding-bottom:50px;
+    img{
+        max-width:100%;
+    }
+}
+
+.container {position:relative;width:1280px;margin:0 auto;}
+

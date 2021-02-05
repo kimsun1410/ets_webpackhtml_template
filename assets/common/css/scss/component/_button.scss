@@ -1,0 +1,55 @@
+.btn_colormode {
+    display: block;
+    position: relative;
+    width: 84px;
+    height: 22px;
+    margin: 10px;
+    border-radius: 11px;
+    background-color: $night-rider;
+
+
+    &::before {
+        content: '';
+        display:block;
+        position:absolute;
+        top:50%;
+        left:11px;
+        transform: translateY(-50%);
+    }
+    .status {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+        padding-left:30px;
+        font-size:10px;
+        line-height: 22px;
+        color: $nobel;
+        text-align:left;
+        font-weight:400;
+    }
+}
+
+
+body[data-theme="dark"] {
+    .btn_colormode {
+        background-color: $night-rider;
+        &::before {
+            @include sprite($common-spr_ico_theme_light, true);
+            left:8px;
+        }
+    }
+}
+
+
+body[data-theme="light"] {
+    .btn_colormode {
+        background-color: $gainsboro;
+        &::before {
+            @include sprite($common-spr_ico_theme_dark, true);
+        }
+    }
+}

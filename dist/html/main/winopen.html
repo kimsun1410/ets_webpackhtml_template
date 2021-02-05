@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=EUC-KR">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="https://img.etoos.com/teacher/event/2018/04/pmo_00/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="https://img.etoos.com/teacher/event/2018/04/pmo_00/favicon.ico" type="image/x-icon">
+    <title> 이투스 :: 내가 앞서가는 힘 - 설 연휴 교재 배송안내</title>
+    <style type="text/css">
+        body{margin:0;padding:0;height:100%;font-size:62.5%;font-family:"Noto Sans KR",-apple-system,BlinkMacSystemFont,"Malgun Gothic",helvetica,"Apple SD Gothic Neo",Dotum,sans-serif;}
+        .blind{position:absolute;clip:rect(0 0 0 0);width:1px;height:1px;margin:-1px;overflow:hidden;}
+        .pop_wrap{display:block;position:relative;width:100%;min-height:100%;}
+        .pop_wrap .close{position:absolute;top:17px;right:4%;width:15px;height:15px;text-indent:-9999px;font-size:0;z-index:1;}
+        .pop_wrap .spr_common::before,
+        .pop_wrap .spr_common::after {content: '';display:block;position: absolute;left:0;width:20px;height:1px;z-index: -1;transform-origin: center left;transition: all 0.2s ease-in;background-color: #776f65;}
+        .pop_wrap .spr_common::before { top:0; transform:rotate(45deg);}
+        .pop_wrap .spr_common::after { bottom:0; transform: rotate(-45deg);}
+        .pop_wrap .inner{position:relative;padding:0 10.2%;height:100vh;background:url('https://img.etoos.com/enp/front/resource/images/temp/img_layerpop03.jpg') no-repeat;background-size:100% 100%;}
+        .pop_wrap .inner img{width:100%;}
+        .pop_wrap .today_box{position:absolute;bottom:6.5%;right:10.2%;font-size:0.87rem;line-height:1.2;letter-spacing:-0.06em;}
+        .pop_wrap .today_box input[type="checkbox"]{position:relative;top:-2px;margin:0 6px 0 0;padding:0;vertical-align:middle;}
+    </style>
+</head>
+<body>
+    <form name="frm">
+        <div class="pop_wrap">
+            <a href="javascript:window.close();" class="spr_common close">닫기</a>
+            <div class="inner">
+                <div class="blind">
+                    <h1>설 연휴 교재 배송 안내</h1>
+                    <p>2월 8일 교재 배송이 마감됩니다.<br>* 단,제주 도서지역은 2월5일 마감</p>
+                    <ul>
+                        <li>-제주 도서지역: 2월5일(금) 오후 1시 주문 건까지 출고</li>
+                        <li>-전국(수도권 포함): 2월8일(월) 오후 4시 주문 건까지 출고</li>
+                        <li>-이후 구매하신 교재는 2월 15일(월) 부터 순차 배송됩니다.</li>
+                    </ul>
+                    <p>* 설 연휴 기간 교재수령을 못하는 회원님을 위해서 교재의 교재파일이 제공 됩니다.(특정교재 제외)</p>
+                    <p>* 일부 지역은 현지 택배사의 물량 증가로 인하여 배송이 지연될 수 있습니다.</p>
+                    <p>즐거운 명절에도 이투스 고객센터는 쉬지 않습니다! <strong>1599-6405</strong> 365일 9:00 ~ 24:00</p>
+                </div>
+                <div class="today_box">
+                    <input type="checkbox" name="notice" value="" onclick="closePop()">오늘 하루 열지 않음
+                </div>
+            </div>
+        </div>
+    </form>
+    <script type="text/javascript">
+        function setCookie( name, value, expiredays ) {
+            var todayDate = new Date(); 
+            todayDate.setDate( todayDate.getDate() + expiredays ); 
+            document.cookie = name + "=" + escape( value ) + "; path=/; expires=" + todayDate.toGMTString() + ";" 
+        } 
+        function closePop(){
+            if (document.frm.notice.checked)
+            setCookie("newyearWpop", "done", 1);
+            window.close();
+        }
+    </script>
+</body>
+</html>

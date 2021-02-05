@@ -1,0 +1,200 @@
+.spr_main {background: url(/assets/enp/front/resource/images/sprites/sprite_main.png);}
+
+$main-width: 241px;
+$main-height: 128px;
+$main-name: 'main';
+$main-image: '/assets/enp/front/resource/images/sprites/sprite_main.png';
+$main: (241px, 128px, '/assets/enp/front/resource/images/sprites/sprite_main.png', 'main');
+
+$main-spr_ico_arrow01-name: 'spr_ico_arrow01';
+$main-spr_ico_arrow01-x: 60px;
+$main-spr_ico_arrow01-y: 117px;
+$main-spr_ico_arrow01-offset_x: -60px;
+$main-spr_ico_arrow01-offset_y: -117px;
+$main-spr_ico_arrow01-width: 6px;
+$main-spr_ico_arrow01-height: 11px;
+$main-spr_ico_arrow01-total_width: 241px;
+$main-spr_ico_arrow01-total_height: 128px;
+$main-spr_ico_arrow01-image: '/assets/enp/front/resource/images/sprites/sprite_main.png';
+$main-spr_ico_arrow01: (60px, 117px, -60px, -117px, 6px, 11px, 241px, 128px, '/assets/enp/front/resource/images/sprites/sprite_main.png', 'spr_ico_arrow01');
+
+$main-spr_ico_fullservice01-name: 'spr_ico_fullservice01';
+$main-spr_ico_fullservice01-x: 184px;
+$main-spr_ico_fullservice01-y: 57px;
+$main-spr_ico_fullservice01-offset_x: -184px;
+$main-spr_ico_fullservice01-offset_y: -57px;
+$main-spr_ico_fullservice01-width: 17px;
+$main-spr_ico_fullservice01-height: 17px;
+$main-spr_ico_fullservice01-total_width: 241px;
+$main-spr_ico_fullservice01-total_height: 128px;
+$main-spr_ico_fullservice01-image: '/assets/enp/front/resource/images/sprites/sprite_main.png';
+$main-spr_ico_fullservice01: (184px, 57px, -184px, -57px, 17px, 17px, 241px, 128px, '/assets/enp/front/resource/images/sprites/sprite_main.png', 'spr_ico_fullservice01');
+
+$main-spr_ico_fullservice02-name: 'spr_ico_fullservice02';
+$main-spr_ico_fullservice02-x: 211px;
+$main-spr_ico_fullservice02-y: 57px;
+$main-spr_ico_fullservice02-offset_x: -211px;
+$main-spr_ico_fullservice02-offset_y: -57px;
+$main-spr_ico_fullservice02-width: 17px;
+$main-spr_ico_fullservice02-height: 17px;
+$main-spr_ico_fullservice02-total_width: 241px;
+$main-spr_ico_fullservice02-total_height: 128px;
+$main-spr_ico_fullservice02-image: '/assets/enp/front/resource/images/sprites/sprite_main.png';
+$main-spr_ico_fullservice02: (211px, 57px, -211px, -57px, 17px, 17px, 241px, 128px, '/assets/enp/front/resource/images/sprites/sprite_main.png', 'spr_ico_fullservice02');
+
+$main-spr_ico_fullservice03-name: 'spr_ico_fullservice03';
+$main-spr_ico_fullservice03-x: 156px;
+$main-spr_ico_fullservice03-y: 57px;
+$main-spr_ico_fullservice03-offset_x: -156px;
+$main-spr_ico_fullservice03-offset_y: -57px;
+$main-spr_ico_fullservice03-width: 18px;
+$main-spr_ico_fullservice03-height: 17px;
+$main-spr_ico_fullservice03-total_width: 241px;
+$main-spr_ico_fullservice03-total_height: 128px;
+$main-spr_ico_fullservice03-image: '/assets/enp/front/resource/images/sprites/sprite_main.png';
+$main-spr_ico_fullservice03: (156px, 57px, -156px, -57px, 18px, 17px, 241px, 128px, '/assets/enp/front/resource/images/sprites/sprite_main.png', 'spr_ico_fullservice03');
+
+$main-spr_ico_fullservice04-name: 'spr_ico_fullservice04';
+$main-spr_ico_fullservice04-x: 177px;
+$main-spr_ico_fullservice04-y: 88px;
+$main-spr_ico_fullservice04-offset_x: -177px;
+$main-spr_ico_fullservice04-offset_y: -88px;
+$main-spr_ico_fullservice04-width: 9px;
+$main-spr_ico_fullservice04-height: 9px;
+$main-spr_ico_fullservice04-total_width: 241px;
+$main-spr_ico_fullservice04-total_height: 128px;
+$main-spr_ico_fullservice04-image: '/assets/enp/front/resource/images/sprites/sprite_main.png';
+$main-spr_ico_fullservice04: (177px, 88px, -177px, -88px, 9px, 9px, 241px, 128px, '/assets/enp/front/resource/images/sprites/sprite_main.png', 'spr_ico_fullservice04');
+
+$main-spr_ico_fullservice05-name: 'spr_ico_fullservice05';
+$main-spr_ico_fullservice05-x: 76px;
+$main-spr_ico_fullservice05-y: 117px;
+$main-spr_ico_fullservice05-offset_x: -76px;
+$main-spr_ico_fullservice05-offset_y: -117px;
+$main-spr_ico_fullservice05-width: 5px;
+$main-spr_ico_fullservice05-height: 9px;
+$main-spr_ico_fullservice05-total_width: 241px;
+$main-spr_ico_fullservice05-total_height: 128px;
+$main-spr_ico_fullservice05-image: '/assets/enp/front/resource/images/sprites/sprite_main.png';
+$main-spr_ico_fullservice05: (76px, 117px, -76px, -117px, 5px, 9px, 241px, 128px, '/assets/enp/front/resource/images/sprites/sprite_main.png', 'spr_ico_fullservice05');
+
+$main-spr_ico_new01-name: 'spr_ico_new01';
+$main-spr_ico_new01-x: 196px;
+$main-spr_ico_new01-y: 88px;
+$main-spr_ico_new01-offset_x: -196px;
+$main-spr_ico_new01-offset_y: -88px;
+$main-spr_ico_new01-width: 7px;
+$main-spr_ico_new01-height: 7px;
+$main-spr_ico_new01-total_width: 241px;
+$main-spr_ico_new01-total_height: 128px;
+$main-spr_ico_new01-image: '/assets/enp/front/resource/images/sprites/sprite_main.png';
+$main-spr_ico_new01: (196px, 88px, -196px, -88px, 7px, 7px, 241px, 128px, '/assets/enp/front/resource/images/sprites/sprite_main.png', 'spr_ico_new01');
+
+$main-spr_ico_new02-name: 'spr_ico_new02';
+$main-spr_ico_new02-x: 152px;
+$main-spr_ico_new02-y: 88px;
+$main-spr_ico_new02-offset_x: -152px;
+$main-spr_ico_new02-offset_y: -88px;
+$main-spr_ico_new02-width: 15px;
+$main-spr_ico_new02-height: 15px;
+$main-spr_ico_new02-total_width: 241px;
+$main-spr_ico_new02-total_height: 128px;
+$main-spr_ico_new02-image: '/assets/enp/front/resource/images/sprites/sprite_main.png';
+$main-spr_ico_new02: (152px, 88px, -152px, -88px, 15px, 15px, 241px, 128px, '/assets/enp/front/resource/images/sprites/sprite_main.png', 'spr_ico_new02');
+
+$main-spr_ico_play-name: 'spr_ico_play';
+$main-spr_ico_play-x: 130px;
+$main-spr_ico_play-y: 57px;
+$main-spr_ico_play-offset_x: -130px;
+$main-spr_ico_play-offset_y: -57px;
+$main-spr_ico_play-width: 16px;
+$main-spr_ico_play-height: 20px;
+$main-spr_ico_play-total_width: 241px;
+$main-spr_ico_play-total_height: 128px;
+$main-spr_ico_play-image: '/assets/enp/front/resource/images/sprites/sprite_main.png';
+$main-spr_ico_play: (130px, 57px, -130px, -57px, 16px, 20px, 241px, 128px, '/assets/enp/front/resource/images/sprites/sprite_main.png', 'spr_ico_play');
+
+$main-spr_ico_slidernav01_left-name: 'spr_ico_slidernav01_left';
+$main-spr_ico_slidernav01_left-x: 60px;
+$main-spr_ico_slidernav01_left-y: 88px;
+$main-spr_ico_slidernav01_left-offset_x: -60px;
+$main-spr_ico_slidernav01_left-offset_y: -88px;
+$main-spr_ico_slidernav01_left-width: 13px;
+$main-spr_ico_slidernav01_left-height: 19px;
+$main-spr_ico_slidernav01_left-total_width: 241px;
+$main-spr_ico_slidernav01_left-total_height: 128px;
+$main-spr_ico_slidernav01_left-image: '/assets/enp/front/resource/images/sprites/sprite_main.png';
+$main-spr_ico_slidernav01_left: (60px, 88px, -60px, -88px, 13px, 19px, 241px, 128px, '/assets/enp/front/resource/images/sprites/sprite_main.png', 'spr_ico_slidernav01_left');
+
+$main-spr_ico_slidernav01_right-name: 'spr_ico_slidernav01_right';
+$main-spr_ico_slidernav01_right-x: 83px;
+$main-spr_ico_slidernav01_right-y: 88px;
+$main-spr_ico_slidernav01_right-offset_x: -83px;
+$main-spr_ico_slidernav01_right-offset_y: -88px;
+$main-spr_ico_slidernav01_right-width: 13px;
+$main-spr_ico_slidernav01_right-height: 19px;
+$main-spr_ico_slidernav01_right-total_width: 241px;
+$main-spr_ico_slidernav01_right-total_height: 128px;
+$main-spr_ico_slidernav01_right-image: '/assets/enp/front/resource/images/sprites/sprite_main.png';
+$main-spr_ico_slidernav01_right: (83px, 88px, -83px, -88px, 13px, 19px, 241px, 128px, '/assets/enp/front/resource/images/sprites/sprite_main.png', 'spr_ico_slidernav01_right');
+
+$main-spr_ico_slidernav02_left-name: 'spr_ico_slidernav02_left';
+$main-spr_ico_slidernav02_left-x: 106px;
+$main-spr_ico_slidernav02_left-y: 88px;
+$main-spr_ico_slidernav02_left-offset_x: -106px;
+$main-spr_ico_slidernav02_left-offset_y: -88px;
+$main-spr_ico_slidernav02_left-width: 13px;
+$main-spr_ico_slidernav02_left-height: 19px;
+$main-spr_ico_slidernav02_left-total_width: 241px;
+$main-spr_ico_slidernav02_left-total_height: 128px;
+$main-spr_ico_slidernav02_left-image: '/assets/enp/front/resource/images/sprites/sprite_main.png';
+$main-spr_ico_slidernav02_left: (106px, 88px, -106px, -88px, 13px, 19px, 241px, 128px, '/assets/enp/front/resource/images/sprites/sprite_main.png', 'spr_ico_slidernav02_left');
+
+$main-spr_ico_slidernav02_right-name: 'spr_ico_slidernav02_right';
+$main-spr_ico_slidernav02_right-x: 129px;
+$main-spr_ico_slidernav02_right-y: 88px;
+$main-spr_ico_slidernav02_right-offset_x: -129px;
+$main-spr_ico_slidernav02_right-offset_y: -88px;
+$main-spr_ico_slidernav02_right-width: 13px;
+$main-spr_ico_slidernav02_right-height: 19px;
+$main-spr_ico_slidernav02_right-total_width: 241px;
+$main-spr_ico_slidernav02_right-total_height: 128px;
+$main-spr_ico_slidernav02_right-image: '/assets/enp/front/resource/images/sprites/sprite_main.png';
+$main-spr_ico_slidernav02_right: (129px, 88px, -129px, -88px, 13px, 19px, 241px, 128px, '/assets/enp/front/resource/images/sprites/sprite_main.png', 'spr_ico_slidernav02_right');
+
+$main-spr_img_fullservice01-name: 'spr_img_fullservice01';
+$main-spr_img_fullservice01-x: 0px;
+$main-spr_img_fullservice01-y: 88px;
+$main-spr_img_fullservice01-offset_x: 0px;
+$main-spr_img_fullservice01-offset_y: -88px;
+$main-spr_img_fullservice01-width: 50px;
+$main-spr_img_fullservice01-height: 40px;
+$main-spr_img_fullservice01-total_width: 241px;
+$main-spr_img_fullservice01-total_height: 128px;
+$main-spr_img_fullservice01-image: '/assets/enp/front/resource/images/sprites/sprite_main.png';
+$main-spr_img_fullservice01: (0px, 88px, 0px, -88px, 50px, 40px, 241px, 128px, '/assets/enp/front/resource/images/sprites/sprite_main.png', 'spr_img_fullservice01');
+
+$main-spr_img_fullservice02-name: 'spr_img_fullservice02';
+$main-spr_img_fullservice02-x: 0px;
+$main-spr_img_fullservice02-y: 0px;
+$main-spr_img_fullservice02-offset_x: 0px;
+$main-spr_img_fullservice02-offset_y: 0px;
+$main-spr_img_fullservice02-width: 120px;
+$main-spr_img_fullservice02-height: 78px;
+$main-spr_img_fullservice02-total_width: 241px;
+$main-spr_img_fullservice02-total_height: 128px;
+$main-spr_img_fullservice02-image: '/assets/enp/front/resource/images/sprites/sprite_main.png';
+$main-spr_img_fullservice02: (0px, 0px, 0px, 0px, 120px, 78px, 241px, 128px, '/assets/enp/front/resource/images/sprites/sprite_main.png', 'spr_img_fullservice02');
+
+$main-spr_img_fullservice03-name: 'spr_img_fullservice03';
+$main-spr_img_fullservice03-x: 130px;
+$main-spr_img_fullservice03-y: 0px;
+$main-spr_img_fullservice03-offset_x: -130px;
+$main-spr_img_fullservice03-offset_y: 0px;
+$main-spr_img_fullservice03-width: 111px;
+$main-spr_img_fullservice03-height: 47px;
+$main-spr_img_fullservice03-total_width: 241px;
+$main-spr_img_fullservice03-total_height: 128px;
+$main-spr_img_fullservice03-image: '/assets/enp/front/resource/images/sprites/sprite_main.png';
+$main-spr_img_fullservice03: (130px, 0px, -130px, 0px, 111px, 47px, 241px, 128px, '/assets/enp/front/resource/images/sprites/sprite_main.png', 'spr_img_fullservice03');
+

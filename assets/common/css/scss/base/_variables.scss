@@ -1,0 +1,70 @@
+/* Fonts */
+$font-family: Noto Sans KR, dotum, sans-serif;
+$font-family-title: Noto Sans KR, dotum, sans-serif;
+
+$body-font: $font-family;
+$body-font-weight: 200; // Noto Sans KR - Light
+
+$header-font: $font-family-title;
+
+$basic-font-size: 100%;
+$paragraph: 12px;
+$line-height: $paragraph * 1.5;
+
+$content-width:1460px;
+/* Basic Colors */
+$white: #fff;
+$black: #000;
+$nero: #222;
+$night-rider: #333;
+$matterhorn: #555;
+$dim-gray: #666;
+$grey: #888;
+$nobel: #999;
+$dark-gray: #aaa;
+$silver: #bbb;
+$very-light-gray: #ccc;
+$gainsboro: #ddd;
+$lightgrey: #d1d1d1;
+$lightgrey2: #d2d2d2;
+$whisper: #eee;
+$whispera: #eaeaea;
+$whisper5: #e5e5e5;
+$whisper7: #e7e7e7;
+$whisper8: #e8e8e8;
+$white-smoke0: #f0f0f0;
+$white-smoke2: #f2f2f2;
+$white-smoke4: #f4f4f4;
+$white-smoke: #f5f5f5;
+$snow: #f9f9f9;
+$pinkswan: #b2b2b2;
+
+$eclipse: #363636;
+$solitude: #edeeef;
+$quartz:#dfdfe1; 
+$gullgrey:#adb0b2;
+$mischka: #b6b7bc;
+$greychateau:#979b9e;
+$paynesgrey:#363845;
+$taupe: #4e3e32;
+$teal: #047f89;
+$java: #319994;
+$java2: #2a8a88;
+$darkcyan: #12938e;
+$persian-green: #0ca49e;
+$mediumturquoise: #47d6d4;
+$bondiblue:#0aa1ad;
+$outrageous-orange:#ed5733;
+$hippiepink: #b94958;
+$brinkpink: #fe7789;
+$royalpurple: #6a44ab;
+$bilobaflower: #b58cfa;
+$lapalma: #49a02a;
+$pastelgreen:#83ec5d;
+$cobalt: #0b5599;
+$cornflowerblue: #50a7f6;
+
+/* Mixing Colors */
+$text-color: $nero;
+$inverted-text-color: $white;
+

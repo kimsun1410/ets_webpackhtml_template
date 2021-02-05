@@ -1,0 +1,132 @@
+#divG_H_LOGIN_LAYER{
+    &.login_laypop{
+        position: absolute;
+        top: 44px;
+        left: 50%;
+        width:320px;
+        right:unset;
+        margin-right:0;
+        margin-left:-90px;
+        background-color: #fff;
+        border: 1px solid #acacac;
+        padding: 52px 40px 39px;
+        z-index: 300;
+        text-align: left;
+        h2 {
+            display: block;
+            margin-bottom: 22px;
+            strong {
+                display: inline-block;
+                vertical-align: top;
+                margin: -10px 0 0 2px;
+                color: #047f89;
+                font-size: 28px;
+                line-height: 43px;
+                font-weight: bold;
+                letter-spacing: -0.03em;
+            }
+        }
+        .input_box {
+            position: relative;
+            border: 1px solid #cecece;
+            height: 38px;
+            margin-bottom: 10px;
+            .inp_login {
+                border: 0 none;
+                height: 38px;
+                font-size: 14px;
+                text-indent: 10px;
+                color:$black;
+            }
+            .login_sel {
+                position: absolute;
+                top: -1px;
+                right: -1px;
+                display: inline-block;
+                *display: inline;
+                *zoom: 1;
+                height: 50px;
+                width: 82px;
+                vertical-align: top;
+                .selected {
+                    display: block;
+                    color: #979b9e;
+                    font-size: 11px;
+                    padding-left: 10px;
+                    height: 38px;
+                    border: 1px solid #dbdbdb;
+                    text-decoration: none;
+                    color: #888;
+                    line-height: 38px;
+                    .ico_arw {
+                        position: absolute;
+                        top: 17px;
+                        right: 15px;
+                        width: 9px;
+                        height: 5px;
+                        background-position: 0 -150px;
+                    }
+                }
+                .list_sel {
+                    position: absolute;
+                    top: 39px;
+                    left: 0;
+                    width: 80px;
+                    color: #666;
+                    border: 1px solid #dbdbdb;
+                    background: #fff;
+                    z-index: 10;
+                    li {
+                        float: left;
+                        width: 100%;
+                        .link {
+                            display: block;
+                            padding-left: 10px;
+                            color: #888;
+                            line-height: 28px;
+                        }
+                    }
+                }
+            }
+        }
+        .login_check {
+            color: #888;
+            font-size: 12px;
+            .inp_check {
+                position:relative;
+                top:2px;
+                margin-top: 0;
+            }
+        }
+        .login_btn {
+            display: inline-block;
+            margin-top:25px;
+            width: 100%;
+            height: 48px;
+            border: 1px solid #007e79;
+            background-color: #00958f;
+            color: #fff;
+            font: bold 20px/48px 'Malgun Gothic',sans-serif;
+            text-align: center;
+            text-decoration: none;
+            letter-spacing: -0.08em;
+            vertical-align: middle;
+        }
+        .btn_close {
+            position: absolute;
+            top: 56px;
+            right: 40px;
+        }
+        .login_mbr {
+            margin-top: 18px;
+            text-align: center;
+            color: #ccc;
+            .link {
+                color: #444;
+                font-weight: bold;
+                font-size: 14px;
+            }
+        }
+    }
+}
+

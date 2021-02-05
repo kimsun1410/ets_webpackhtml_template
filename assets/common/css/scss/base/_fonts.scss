@@ -1,0 +1,63 @@
+/* Font Face */
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 100;
+    src: url(https://www.etoos.com/common/css/font/_NotoSansKR/NotoSansKR-Thin.woff2) format('woff2'),
+         url(https://www.etoos.com/common/css/font/_NotoSansKR/NotoSansKR-Thin.woff) format('woff'),
+         url(https://www.etoos.com/common/css/font/_NotoSansKR/NotoSansKR-Thin.otf) format('opentype');
+    unicode-range: U+000-5FF, U+AC00-D7AF; /* Latin + Korean */
+    font-display: swap;
+}
+  @font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://www.etoos.com/common/css/font/_NotoSansKR/NotoSansKR-Light.woff2) format('woff2'),
+         url(https://www.etoos.com/common/css/font/_NotoSansKR/NotoSansKR-Light.woff) format('woff'),
+         url(https://www.etoos.com/common/css/font/_NotoSansKR/NotoSansKR-Light.otf) format('opentype');
+    unicode-range: U+000-5FF, U+AC00-D7AF; /* Latin + Korean */
+    font-display: swap;
+  }
+  @font-face {
+     font-family: 'Noto Sans KR';
+     font-style: normal;
+     font-weight: 400;
+     src: url(https://www.etoos.com/common/css/font/_NotoSansKR/NotoSansKR-Regular.woff2) format('woff2'),
+          url(https://www.etoos.com/common/css/font/_NotoSansKR/NotoSansKR-Regular.woff) format('woff'),
+          url(https://www.etoos.com/common/css/font/_NotoSansKR/NotoSansKR-Regular.otf) format('opentype');
+    unicode-range: U+000-5FF, U+AC00-D7AF; /* Latin + Korean */
+    font-display: swap;
+  }
+  @font-face {
+     font-family: 'Noto Sans KR';
+     font-style: normal;
+     font-weight: 500;
+     src: url(https://www.etoos.com/common/css/font/_NotoSansKR/NotoSansKR-Medium.woff2) format('woff2'),
+          url(https://www.etoos.com/common/css/font/_NotoSansKR/NotoSansKR-Medium.woff) format('woff'),
+          url(https://www.etoos.com/common/css/font/_NotoSansKR/NotoSansKR-Medium.otf) format('opentype');
+    unicode-range: U+000-5FF, U+AC00-D7AF; /* Latin + Korean */
+    font-display: swap;
+  }
+  @font-face {
+     font-family: 'Noto Sans KR';
+     font-style: normal;
+     font-weight: 700;
+     src: url(https://www.etoos.com/common/css/font/_NotoSansKR/NotoSansKR-Bold.woff2) format('woff2'),
+          url(https://www.etoos.com/common/css/font/_NotoSansKR/NotoSansKR-Bold.woff) format('woff'),
+          url(https://www.etoos.com/common/css/font/_NotoSansKR/NotoSansKR-Bold.otf) format('opentype');
+    unicode-range: U+000-5FF, U+AC00-D7AF; /* Latin + Korean */
+    font-display: swap;
+  }
+  @font-face {
+     font-family: 'Noto Sans KR';
+     font-style: normal;
+     font-weight: 900;
+     src: url(https://www.etoos.com/common/css/font/_NotoSansKR/NotoSansKR-Black.woff2) format('woff2'),
+          url(https://www.etoos.com/common/css/font/_NotoSansKR/NotoSansKR-Black.woff) format('woff'),
+          url(https://www.etoos.com/common/css/font/_NotoSansKR/NotoSansKR-Black.otf) format('opentype');
+    unicode-range: U+000-5FF, U+AC00-D7AF; /* Latin + Korean */
+    font-display: swap;
+  }
+
+

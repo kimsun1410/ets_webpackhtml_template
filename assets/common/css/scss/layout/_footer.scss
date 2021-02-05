@@ -1,0 +1,334 @@
+#etoosFoot {
+    .module_tab {
+        .tab_navi {
+            .btn_tab {display:block;}
+        }
+        .tab_panel {
+            .panel {
+                display:none;
+                &.on {display:block;}
+            }
+        }
+    }
+    .box_service {
+        padding-bottom:32px;
+        .container {height:100%;}
+        .wrap_head {
+            height:55px;box-sizing:border-box;border-top:1px solid $gainsboro;border-bottom:1px solid $gainsboro;
+            .title {
+                @include font-weight(medium);
+                display:inline-block;position:relative;height:100%;padding-left:90px;font-size:16px;line-height:53px;color:$nero;vertical-align:top;
+                .logo {
+                    @include sprite($common-spr_logo_etoos02_light);
+                    position:absolute;top:50%;left:0;margin-top:-8px;padding-right:0;
+                }
+            }
+            .btn_toggle {
+                @include flexbox-align-center;
+                position:absolute;top:-1px;right:0;width:47px;height:55px;box-sizing:border-box;
+                border:1px solid $gainsboro;border-left:0 none;
+                .ico_arrow {
+                    @include sprite($common-spr_ico_arrow02);
+                    transform:rotate(-180deg);
+                }
+                &.on {
+                    .ico_arrow {
+                        transform:rotate(0);
+                    }
+                }
+            }
+            .info_social {
+                position:absolute;top:50%;right:370px;transform:translateY(-50%);
+                .list_social {
+                    li {
+                        display:inline-block;vertical-align:top;
+                    }
+                    .link {
+                        @include flexbox-align-center;
+                        position:relative;width:24px;height:24px;
+                        .spr_common {
+                            display:block;
+                            &.facebook {@include sprite($common-spr_ico_social_facebook);}
+                            &.instagram {@include sprite($common-spr_ico_social_instagram);}
+                            &.naverpost {@include sprite($common-spr_ico_social_naverpost);}
+                            &.naverblog {@include sprite($common-spr_ico_social_naverblog);}
+                            &.navertv {@include sprite($common-spr_ico_social_navertv);}
+                            &.youtube {@include sprite($common-spr_ico_social_youtube);}
+                            &.kakaotv {@include sprite($common-spr_ico_social_kakaotv);}
+                        }
+                        &:hover {
+                            .spr_common {
+                                &.facebook {@include sprite($common-spr_ico_social_facebook_hover);}
+                                &.instagram {@include sprite($common-spr_ico_social_instagram_hover);}
+                                &.naverpost {@include sprite($common-spr_ico_social_naverpost_hover);}
+                                &.naverblog {@include sprite($common-spr_ico_social_naverblog_hover);}
+                                &.navertv {@include sprite($common-spr_ico_social_navertv_hover);}
+                                &.youtube {@include sprite($common-spr_ico_social_youtube_hover);}
+                                &.kakaotv {@include sprite($common-spr_ico_social_kakaotv_hover);}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .wrap_cont {
+            position: relative;
+            .module_tab {
+                .tab_navi {display:flex;position:absolute;top:-55px;;right:46px;width:304px;height:55px;
+                    li {
+                        width:104px;box-sizing:border-box;margin-left:-1px;border:1px solid $gainsboro;
+                        &.on {
+                            position:relative;border-bottom:1px solid $white;
+                            .btn_tab {
+                                .inner {color:$nero;}
+                            }
+                        }
+                    }
+                    .btn_tab {
+                        @include flexbox-align-center;
+                        width:100%;height:100%;text-align:center;text-decoration:none;
+                        .inner {display:inline-block;font-weight:400;font-size:15px;color:$nobel;vertical-align:middle;}
+                    }
+                }
+            }
+            .cont_service {
+                display:flex;justify-content:space-between;align-items:flex-start;width:100%;padding-top:32px;
+                .info_list {
+                    min-width:114px;
+                    .link {
+                        display:inline-block;font-size:13px;line-height:22px;
+                        &:hover {text-decoration:underline;}
+                    }
+                    .nolink{
+                        cursor: default;
+                        text-decoration: none;
+                        &:hover{
+                            text-decoration: none;
+                        }
+                    }
+                    dt {
+                        display:block;width:100%;
+                        .link {color:$nero;}
+                    }
+                    dd {
+                        display:block;width:100%;
+                        .link {color:$dim-gray;}
+                    }
+                }
+            }
+        }
+    }
+    .box_footer {
+        margin-top:16px;padding-bottom:40px;
+        .list_link {
+            overflow:hidden;width:100%;
+            &::after {
+                @include clear;
+            }
+            li {
+                float:left;margin:0 7px;
+                &:first-child {margin-left:0;}
+            }
+            .link {
+                display:block;font-size:14px;line-height:20px;color:$nero;
+                &:hover {text-decoration:underline;}
+                &.emph {color:$teal;}
+            }
+        }
+        .info_company {
+            margin-top:18px;
+            .txt_cont {font-size:12px;line-height:20px;color:$nobel;}
+            .link {color:$teal;text-decoration:underline;}
+            .copyright {margin-top:18px;}
+        }
+        .site_link {
+            position:absolute;top:0;right:0;
+            .btn_tooltip {
+                display:flex;justify-content:flex-start;align-items:center;position:relative;width:350px;height:45px;box-sizing:border-box;padding-left:20px;border:1px solid $gainsboro;text-align:left;text-decoration:none;
+                &::after {
+                    @include sprite($common-spr_ico_arrow02, true);
+                    content:'';position:absolute;top:50%;right:18px;margin-top:-5px;transform:rotate(-180deg);
+                }
+                .inner {font-weight:300;font-size:14px;color:$nobel;}
+            }
+            .tooltip_layer {
+                display:none;position:absolute;bottom:44px;right:0;width:760px;height:159px;box-sizing:border-box;padding-left:34px;border:1px solid $gainsboro;background-color:$white;
+                .list_site {
+                    overflow:hidden;margin-top:20px;
+                    li {
+                        display:flex;justify-content:flex-start;align-items:center;float:left;height:36px;margin-top:16px;
+                        &:nth-child(4n) {width:190px;}
+                        &:nth-child(4n-3) {width:180px;}
+                        &:nth-child(4n-2) {width:132px;}
+                        &:nth-child(4n-1) {width:186px;}
+
+                    }
+                    .link {display:block;}
+                    .site01 {
+                        @include sprite($common-spr_logo_etooshyper);
+                    }
+                    .site02 {
+                        @include sprite($common-spr_logo_etooscheongsol);
+                    }
+                    .site03 {
+                        @include sprite($common-spr_logo_etoosanswer);
+                    }
+                    .site04 {
+                        @include sprite($common-spr_logo_etoosneo);
+                    }
+                    .site05 {
+                        @include sprite($common-spr_logo_etoos247);
+                    }
+                    .site06 {
+                        @include sprite($common-spr_logo_etoosbook);
+                    }
+                    .site07 {
+                        @include sprite($common-spr_logo_etooslab);
+                    }
+                    .site08 {
+                        @include sprite($common-spr_logo_etoosmath);
+                    }
+                }
+            }
+            &.on {
+                .btn_tooltip {
+                    &::after {
+                        transform:rotate(0);
+                    }
+                }
+                .tooltip_layer {display:block;}
+            }
+
+        }
+        .info_cert {
+            position:absolute;bottom:0;right:0;
+            .list_item {
+                li {
+                    display:inline-flex;align-items:center;height:64px;margin-left:12px;vertical-align:top;
+                    &:first-child {margin-left:0;}
+                }
+                .spr_common {
+                    &.cert01 {
+                        @include sprite($common-spr_img_cert01_light);
+                    }
+                    &.cert02 {
+                        @include sprite($common-spr_img_cert02_light);
+                    }
+                    &.cert03 {
+                        @include sprite($common-spr_img_cert03_light);
+                    }
+                    &.cert04 {
+                        @include sprite($common-spr_img_cert04_light);
+                    }
+                }
+            }
+        }
+    }
+    .box_floating {
+        position:relative;z-index:110;
+        .btn_top {
+            @include flexbox-align-center;
+            position:fixed;bottom:50px;right:50px;width:50px;height:50px;border-radius:50%;background-color:rgb(46,46,46);transition:0.2s opacity linear;
+            opacity:0;
+            .ico_arrow {
+                @include sprite($common-spr_ico_topbutton);
+                display:block;
+                opacity:.3;
+            }
+            &.on {
+                opacity:1;
+            }
+        }
+    }
+}
+
+body[data-theme="dark"] {
+    #etoosFoot {
+        .box_service {
+            .wrap_head {
+                border-top:1px solid $night-rider;border-bottom:1px solid $night-rider;
+                .title {
+                    color:$gainsboro;
+                    .logo {
+                        @include sprite($common-spr_logo_etoos02_dark);
+                        padding-right:0;
+                    }
+                }
+                .btn_toggle {
+                    border:1px solid $night-rider;border-left:0 none;
+                }
+            }
+            .wrap_cont {
+                .module_tab {
+                    .tab_navi {
+                        li {
+                            border:1px solid $night-rider;
+                            &.on {
+                                border-bottom:1px solid $black;
+                                .btn_tab {
+                                    .inner {color:$gainsboro;}
+                                }
+                            }
+                            .btn_tab {
+                                .inner {color:$matterhorn;}
+                            }
+                        }
+                    }
+                }
+                .cont_service {
+                    .info_list {
+                        dt {
+                            .link {color:$gainsboro;}
+                        }
+                        dd {
+                            .link {color:$nobel;}
+                        }
+                    }
+                }
+            }
+        }
+        .box_footer {
+            .list_link {
+                .link {
+                    color:$gainsboro;
+                    &.emph {color:$teal;}
+                }
+            }
+            .info_company {
+                .txt_cont {
+                    color:$nobel;
+                }
+                .link {
+                    color:$teal;
+                }
+            }
+            .site_link {
+                .btn_tooltip {
+                    border:1px solid $night-rider;
+                    .inner {color:$nobel;}
+                }
+                .tooltip_layer {
+                    border:1px solid $night-rider;background-color:$black;
+                }
+            }
+            .info_cert {
+                .list_item {
+                    .spr_common {
+                        &.cert01 {
+                            @include sprite($common-spr_img_cert01_dark);
+                        }
+                        &.cert02 {
+                            @include sprite($common-spr_img_cert02_dark);
+                        }
+                        &.cert03 {
+                            @include sprite($common-spr_img_cert03_dark);
+                        }
+                        &.cert04 {
+                            @include sprite($common-spr_img_cert04_dark);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

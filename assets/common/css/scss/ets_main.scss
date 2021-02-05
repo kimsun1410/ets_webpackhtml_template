@@ -1,0 +1,25 @@
+@charset "euc-kr";
+
+/* ------------------------------ Common ------------------------------ */
+@import '_sprite/sprite_common';
+
+@import 'base/variables';
+/* @import 'base/reset'; */
+@import 'base/fonts';
+@import 'base/base';
+
+@import 'util/mixins';
+
+@import 'component/button.scss';
+@import 'component/layers.scss';
+
+@import 'layout/header';
+@import 'layout/footer';
+/* ------------------------------ //Common ------------------------------ */
+
+/* ------------------------------ Main ------------------------------ */
+@import 'base/reset';
+@import 'base/fonts';
+@import '_sprite/sprite_main';
+@import 'page/main';
+/* ------------------------------ //Main ------------------------------ */

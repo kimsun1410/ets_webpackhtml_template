@@ -1,0 +1,98 @@
+/* clearfix */
+@mixin clear {content:'';display:table;overflow:hidden;width:100%;height:0;clear:both;}
+
+/* flexbox align */
+@mixin flex-align($display, $justify-content, $align-items) {
+	display:$display;justify-content:$justify-content;align-items:$align-items;
+}
+@mixin flexbox-align-center {
+	@include flex-align(flex, center, center);
+}
+@mixin flexinline-align-center {
+	@include flex-align(inline-flex, center, center);
+}
+
+/* ellipsis(line) */
+@mixin ellipsis($line) {
+	@if $line == 1 {
+		overflow:hidden;width:100%;white-space:nowrap;text-overflow:ellipsis;word-break:keep-all;word-wrap:break-word;
+	} @else {
+		display:block;display:-webkit-box;-webkit-box-orient:vertical;box-orient:vertical;-webkit-line-clamp:$line;line-clamp:$line;overflow:hidden;text-overflow:ellipsis;word-break:keep-all;word-wrap:break-word;
+	}
+}
+
+/* font-weight */
+@mixin font-weight($font-family) {
+	@if $font-family == 'thin' {
+		font-weight: 100;
+	} @else if $font-family == 'light' {
+		font-weight: 200;
+	} @else if $font-family == 'demilight' {
+		font-weight: 300;
+	} @else if $font-family == 'regular' {
+		font-weight: 400;
+	} @else if $font-family == 'medium' {
+		font-weight: 500;
+	} @else if $font-family == 'bold' {
+		font-weight: 700;
+	} @else if $font-family == 'black' {
+		font-weight: 800;
+	}
+}
+
+
+
+/* 스프라이트 이미지 */
+@mixin sprite-width($sprite) {
+    width: nth($sprite, 5);
+}
+@mixin sprite-height($sprite) {
+    height: nth($sprite, 6);
+}
+@mixin sprite-position($sprite) {
+    $sprite-offset-x: nth($sprite, 3);
+    $sprite-offset-y: nth($sprite, 4);
+    background-position: $sprite-offset-x  $sprite-offset-y;
+}
+@mixin sprite-image($sprite) {
+    $sprite-image: nth($sprite, 9);
+    background-image: url(#{$sprite-image});
+}
+@mixin sprite($sprite, $sheet:false) {
+	@if ($sheet == true) {
+		@include sprite-width($sprite);
+		@include sprite-height($sprite);
+		@include sprite-image($sprite);
+		@include sprite-position($sprite);
+	} @else {
+		@include sprite-width($sprite);
+		@include sprite-height($sprite);
+		@include sprite-position($sprite);
+	}
+}
+
+/* 스프라이트 이미지 1/2 */
+@mixin sprite-image-half($spritesheet) {
+    $spritesheet-image: nth($spritesheet, 3);
+    $spritesheet-width: nth($spritesheet, 1)/2;
+    $spritesheet-height: nth($spritesheet, 2)/2;
+    background-image: url(#{$spritesheet-image});
+    background-size: $spritesheet-width $spritesheet-height;
+}
+@mixin sprite-position-half($sprite) {
+    $sprite-offset-x: nth($sprite, 3)/2;
+    $sprite-offset-y: nth($sprite, 4)/2;
+    background-position: $sprite-offset-x  $sprite-offset-y;
+}
+@mixin sprite-width-half($sprite) {
+    width: nth($sprite, 5)/2;
+}
+@mixin sprite-height-half($sprite) {
+    height: nth($sprite, 6)/2;
+}
+@mixin sprite-half($sprite) {
+    @include sprite-position-half($sprite);
+    @include sprite-width-half($sprite);
+    @include sprite-height-half($sprite);
+}
+
